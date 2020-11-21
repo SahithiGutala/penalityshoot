@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", cursive;
+}
+body{
+    background:#996a7d;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background: white;
+    box-shadow: inset  5px 5px  15px  black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 700px;
+    padding: 50px;
+    align-self: center;
+}
+.row{
+    display: flex;
+}
+.col{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container >.row{
+
+    width: 100%;
+    justify-content: space-evenly;
+}
+.profile-icon{
+    border-radius: 50%;
+    border-color: white;
+    border: 2px solid bisque;
+}
+.name{
+    margin: 20px 0;
+    font-size: x-large;
+    font-weight: bold;
+}
+.score1{
+    font-size: xx-large;
+}
+.score1 > span{
+    margin:0 5px;
+    font-weight: bold;
+}
+.round-runs{
+    font-size: xx-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+.score{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+#try-again-button{
+    border:none;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #c02425,#f0cb35);
+    font-size: large;
+    width: 150px;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    outline:none;
+}
+#try-again-button:hover{
+    box-shadow: 0 0 10px 0 black;
+}
+#strike-button{
+    border:none;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #c02425,#f0cb35);
+    font-size: large;
+    width: 300px;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    outline:none;
+}
+
+#strike-button:hover{
+    box-shadow: 0 0 10px 0 black;
+}
+#result{
+    margin-top: 50px;
+    border-radius: 90px;
+    background: linear-gradient(90deg,#4CBB17,#FFFF00);
+    background-clip: text;
+    text-transform: uppercase;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #9127ef;
+}
